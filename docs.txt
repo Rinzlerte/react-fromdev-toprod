@@ -1,0 +1,14 @@
+# 👇️  (Windows) delete node_modules and package-lock.json
+rd /s /q "node_modules"
+del package-lock.json
+del -f yarn.lock
+
+# 👇️  (macOS/Linux) delete node_modules and package-lock.json
+rm -rf node_modules
+rm -f package-lock.json
+rm -f yarn.lock
+
+# 👇️ clean npm cache
+npm cache clean --force
+
+npm install
