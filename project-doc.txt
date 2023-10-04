@@ -1,0 +1,6 @@
+https://feature-sliced.design/
+Architectural methodology for frontend projects
+
+стурктура проекта - то как располагаются папки и файли в проекте
+
+архитектура проекта - составляющие системи как они связани между собой. ядро модули 
