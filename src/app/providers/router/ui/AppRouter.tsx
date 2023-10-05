@@ -1,7 +1,4 @@
-import { Routes, Route, Link } from 'react-router-dom'
- 
-import {AboutPage} from 'pages/AboutPage'
-import {MainPage} from 'pages/MainPage'
+import { Routes, Route} from 'react-router-dom'
 import { Suspense } from 'react'
 import { routeConfig } from 'shared/config/routerConfig/routerConfig'
 
