@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
+body{
+    padding: 0;
+    margin: 0;
+}
+
 input,
 button,
 textarea,
 select {
     margin: 0;
-
     font: inherit;
 }
