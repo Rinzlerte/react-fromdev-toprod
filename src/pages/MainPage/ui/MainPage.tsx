@@ -2,7 +2,7 @@ import React from 'react'
 
 const MainPage = () => {
   return (
-    <div>MainPagge</div>
+    <div className='page-wrapper'>MainPagge</div>
   ) 
 }
 
