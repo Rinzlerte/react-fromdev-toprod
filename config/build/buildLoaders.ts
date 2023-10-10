@@ -13,7 +13,7 @@ export function buildLoaders({isDev}: BuildOptions): webpack.RuleSetRule[] {
         test: /(\.css|\.scss)$/,
         use: [
 
-           isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
+            isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
             {
                 loader: 'css-loader',
                 options: {

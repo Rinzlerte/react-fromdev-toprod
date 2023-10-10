@@ -7,18 +7,18 @@ import {Suspense} from 'react';
 import './styles/index.scss';
 
 const App = () => {
-  const {theme} = useTheme();
-  return (
-    <div className={classNames('app', {hovered: true}, [theme, 'cl2', 'cl3'])}>
-      <Suspense fallback="">
-        <Navbar />
-        <div className='content-page'>
-          <SideBar />
-          <AppRouter />
+    const {theme} = useTheme();
+    return (
+        <div className={classNames('app', {hovered: true}, [theme, 'cl2', 'cl3'])}>
+            <Suspense fallback="">
+                <Navbar />
+                <div className='content-page'>
+                    <SideBar />
+                    <AppRouter />
+                </div>
+            </Suspense>
         </div>
-      </Suspense>
-    </div>
-  )
+    )
 }
 
 export default App
