@@ -5,6 +5,7 @@ const MainPage = () => {
     return (
         <div className='page-wrapper'>
             {t('Main')}
+         
         </div>
     ) 
 }
